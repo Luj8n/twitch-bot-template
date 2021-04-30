@@ -1,0 +1,14 @@
+{
+  "name": "twitch-bot-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm i && node main"
+  },
+  "author": "Luj8n",
+  "dependencies": {
+    "tmi.js": "^1.8.3"
+  }
+}
