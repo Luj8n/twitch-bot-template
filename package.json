@@ -2,13 +2,22 @@
   "name": "twitch-bot-template",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
-  "type": "module",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "npm i && node main"
+    "dev": "concurrently \"tsc --watch\" \"nodemon dist/index.js\"",
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "author": "Luj8n",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "tmi.js": "^1.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.13",
+    "@types/tmi.js": "^1.7.2",
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.12",
+    "typescript": "^4.3.5"
   }
 }
