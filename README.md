@@ -1,6 +1,6 @@
 # twitch-bot-template
 
-This is a simple twitch bot template with made with [tmi.js](https://tmijs.com/) and [typescript](https://www.typescriptlang.org/)
+This is a simple twitch bot template made with with [tmi.js](https://tmijs.com/) and [typescript](https://www.typescriptlang.org/)
 
 ## How to use it
 
